@@ -2,9 +2,14 @@
   box-sizing: border-box;
 }
 
+body {
+  background: #90AFC5;
+}
+
 h1 {
   font-family: Helvetica;
   text-align: center;
+  color: #2A3132;
 }
 
 h2 {
@@ -12,8 +17,8 @@ h2 {
   top: 0px;
   right: 0px;
   text-align: center;
-  border-bottom: 1px solid black;
-  border-left: 1px solid black;
+  border-bottom: 2px solid #2A3132;
+  border-left: 2px solid #2A3132;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -21,41 +26,41 @@ h2 {
 p {
   clear: right;
   font-weight: bold;
-  color: black;
+  color: whitesmoke;
   overflow: hidden;
   margin: 0;
   padding: 2%;
 }
 
+.container {
+  padding: 2%;
+  position: relative;
+}
+
+.menuitem {
+  border: 2px solid #2A3132;
+  background-color: #336B87;
+  height: 160px;
+  font-family: Helvetica;
+  color: whitesmoke;
+  overflow: hidden;
+}
+
 .chicken {
-  color: black;
-  background: pink;
+  color: #2A3132;
+  background: rgb(226, 155, 167);
   width: 40%;
 }
 
 .beef {
-  background: red;
+  background: rgb(190, 45, 45);
   width: 40%;
 }
 
 .sushi {
-  color: black;
-  background-color: yellow;
+  color: #2A3132;
+  background-color: rgb(212, 212, 0);
   width: 40%;
-}
-
-.col-md-6, .col-md-12 {
-  padding: 2%;
-}
-
-.section {
-  position: relative;
-  border: 1px solid black;
-  background-color: grey;
-  height: 160px;
-  font-family: Helvetica;
-  color: white;
-  overflow: hidden;
 }
 
 /* Simple Responsive Framework. */
